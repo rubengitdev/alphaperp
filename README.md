@@ -1,12 +1,12 @@
-# 🌊 Stableperp Smart Contracts
+# 🌊 AlphaPerp Smart Contracts
 
 **The decentralized engine powering the future of on-chain derivatives.**
 
-This repository contains the core smart contracts and on-chain logic that make the Stableperp protocol possible. Built natively on the blockchain, these contracts are designed for extreme performance, absolute security, and full decentralization.
+This repository contains the core smart contracts and on-chain logic that make the AlphaPerp protocol possible. Built natively on the blockchain, these contracts are designed for extreme performance, absolute security, and full decentralization.
 
 ## ⚙️ The Core of Onchain TradFi
 
-Stableperp brings real-world assets (RWAs) to the blockchain by eliminating middlemen and introducing trustless execution.
+AlphaPerp brings real-world assets (RWAs) to the blockchain by eliminating middlemen and introducing trustless execution.
 
 - **Lightning Fast Settlement:** By leveraging the speed of the blockchain, our contracts settle options trades instantly without the traditional T+2 delays.
 - **Oracle-Driven Pricing:** Fully integrated with decentralized oracle networks to guarantee fair, real-time pricing of US stock derivatives.
@@ -19,4 +19,4 @@ The $SPERP token is deeply integrated into the vision of our protocol. Holding $
 
 **Join the revolution. The future of derivatives is decentralized.**
 
-🌐 [Website](https://stableperp.tech/) | 🐦 [X (Twitter)](https://x.com/stableperp)
+🌐 [Website](https://alphaperp.tech/) | 🐦 [X (Twitter)](https://x.com/alphaperp)

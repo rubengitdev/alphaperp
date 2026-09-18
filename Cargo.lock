@@ -77,6 +77,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923"
 
 [[package]]
+name = "alphaperp"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "blake3",
+ "block-buffer 0.10.4",
+ "hashbrown 0.14.3",
+ "proc-macro-crate 3.0.0",
+ "toml_datetime",
+ "zeroize",
+ "zeroize_derive",
+]
+
+[[package]]
 name = "anchor-attribute-access-control"
 version = "0.30.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1504,9 +1519,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.107"
+version = "1.0.94"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
+checksum = "a31971752e70b8b2686d7e46ec17fb38dad4051d94024c88df49b667caea9c84"
 dependencies = [
  "unicode-ident",
 ]
@@ -2292,21 +2307,6 @@ dependencies = [
  "spl-discriminator",
  "spl-pod",
  "spl-program-error",
-]
-
-[[package]]
-name = "stableperp"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
- "anchor-spl",
- "blake3",
- "block-buffer 0.10.4",
- "hashbrown 0.14.3",
- "proc-macro-crate 3.0.0",
- "toml_datetime",
- "zeroize",
- "zeroize_derive",
 ]
 
 [[package]]

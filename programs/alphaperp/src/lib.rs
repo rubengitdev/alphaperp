@@ -8,7 +8,7 @@ use instructions::*;
 declare_id!("2JhenW49NwMcvK97jBsbAB5rHBcYA9mJ2MvSk7a6WmaQ");
 
 #[program]
-pub mod stableperp {
+pub mod alphaperp {
     use super::*;
 
     pub fn init_config(

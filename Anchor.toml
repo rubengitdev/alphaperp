@@ -7,13 +7,13 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-stableperp = "D2pAeo437UfwD7jALV8rDB5fpHJJBt5GzDeDka8485mS"
+alphaperp = "D2pAeo437UfwD7jALV8rDB5fpHJJBt5GzDeDka8485mS"
 
 [programs.localnet]
-stableperp = "D2pAeo437UfwD7jALV8rDB5fpHJJBt5GzDeDka8485mS"
+alphaperp = "D2pAeo437UfwD7jALV8rDB5fpHJJBt5GzDeDka8485mS"
 
 [programs.mainnet]
-stableperp = "2JhenW49NwMcvK97jBsbAB5rHBcYA9mJ2MvSk7a6WmaQ"
+alphaperp = "2JhenW49NwMcvK97jBsbAB5rHBcYA9mJ2MvSk7a6WmaQ"
 
 [registry]
 url = "https://api.apr.dev"

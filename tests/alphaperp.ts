@@ -5,10 +5,10 @@ import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddres
 import { createMockToken, mintMockTokens } from "./mock-tokens";
 import { assert } from "chai";
 
-describe("stableperp", () => {
+describe("alphaperp", () => {
   anchor.setProvider(anchor.AnchorProvider.env());
   const provider = anchor.getProvider() as anchor.AnchorProvider;
-  const program = anchor.workspace.Stableperp as any;
+  const program = anchor.workspace.Alphaperp as any;
 
   // Keypairs for actors
   const admin = Keypair.generate();
