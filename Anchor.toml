@@ -7,19 +7,22 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-alphaperp = "D2pAeo437UfwD7jALV8rDB5fpHJJBt5GzDeDka8485mS"
+alphaperp = "4r2KrpLUr4wYw3rWDMtskJ35g972paP3caTzEoz78ES3"
 
 [programs.localnet]
-alphaperp = "D2pAeo437UfwD7jALV8rDB5fpHJJBt5GzDeDka8485mS"
+alphaperp = "4r2KrpLUr4wYw3rWDMtskJ35g972paP3caTzEoz78ES3"
+
+[programs.testnet]
+alphaperp = "4r2KrpLUr4wYw3rWDMtskJ35g972paP3caTzEoz78ES3"
 
 [programs.mainnet]
-alphaperp = "2JhenW49NwMcvK97jBsbAB5rHBcYA9mJ2MvSk7a6WmaQ"
+alphaperp = "4r2KrpLUr4wYw3rWDMtskJ35g972paP3caTzEoz78ES3"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Testnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

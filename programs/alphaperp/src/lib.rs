@@ -5,7 +5,7 @@ pub mod instructions;
 
 use instructions::*;
 
-declare_id!("2JhenW49NwMcvK97jBsbAB5rHBcYA9mJ2MvSk7a6WmaQ");
+declare_id!("4r2KrpLUr4wYw3rWDMtskJ35g972paP3caTzEoz78ES3");
 
 #[program]
 pub mod alphaperp {
